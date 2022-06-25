@@ -1,0 +1,59 @@
+*{
+    background-color: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: serif;
+
+}
+
+section{
+    border: 10px solid rgb(0, 0, 0);
+    height: 90vh;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+
+}
+
+.container{
+    border: 10px solid gray; 
+    max-width: 1200px;/* max-width centre pe hi rahega after 700px */
+    width: 100%; 
+
+    margin: auto;
+
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    /* right: 0%;
+    left: 0;
+    top: 0;
+    bottom: 0;  */
+}  
+
+.layer{
+    border: 10px solid palevioletred;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    height: 30vh;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.drawer{
+    max-width: 400px;
+    width: 100%;
+    height: 30vh;
+}
+
+.text{
+    max-width: 600px;
+    width: 100%;
+    height: 26vh;
+}
